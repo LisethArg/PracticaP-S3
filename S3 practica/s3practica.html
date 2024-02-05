@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Roxana Liseth Argueta Pérez SMIS635019</h3>
+
+     <!--Ejercicio 1: Calcular  Velocidad  -->
+    <label for="distancia">Distancia (km):</label>
+    <input type="number" id="distancia">
+    
+    <label for="tiempo">Tiempo (min):</label>
+    <input type="number" id="tiempo">
+    
+    <button onclick="calcularVelocidad()">Calcular Velocidad</button>
+    <label id="resultadoVelocidad"></label>
+
+    <br> <br> <br> 
+
+   
+    <!-- Ejercicio 2: Clasificación de Triángulos  -->
+    <label for="lado1">Lado 1:</label>
+    <input type="number" id="lado1">
+    
+    <label for="lado2">Lado 2:</label>
+    <input type="number" id="lado2">
+    
+    <label for="lado3">Lado 3:</label>
+    <input type="number" id="lado3">
+    
+    <button onclick="clasificarTriangulo()">Clasificar Triángulo</button>
+    <label id="resultadoTriangulo"></label>
+
+    <br><br> <br> 
+
+    <!-- Ejercicio 3: Calculadora Simple  -->
+    <label for="num1">Número 1:</label>
+    <input type="number" id="num1">
+    
+    <label for="num2">Número 2:</label>
+    <input type="number" id="num2">
+    
+    <button onclick="calcularOperacion('suma')">Sumar</button>
+    <button onclick="calcularOperacion('resta')">Restar</button>
+    <button onclick="calcularOperacion('multiplicacion')">Multiplicar</button>
+    <button onclick="calcularOperacion('division')">Dividir</button>
+    
+    <label id="resultadoCalculadora"></label>
+
+    <br><br><br> 
+
+    <!--Ejercicio 4: Si un número es primo --> 
+    <label for="numeroPrimo">Ingrese un número:</label>
+    <input type="number" id="numeroPrimo">
+    <button onclick="verificarPrimo()">Verificar Primo</button>
+    <label id="resultadoPrimo"></label>
+
+    <script src="s3practic.js"></script>
+    <style>
+ body {
+        background-color: rgb(74, 98, 117);
+      }
+
+      h3{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      button{
+        color: rgb(252, 255, 45);
+        font-family: Helvetica;
+        background-color: #163522; /* Color de fondo verde */
+        font-size: 12px;
+        border-radius: 5px;
+      }
+    </style>
+</body>
+</html>
